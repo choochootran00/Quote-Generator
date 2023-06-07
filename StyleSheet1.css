@@ -1,0 +1,68 @@
+﻿body
+{
+   background-color: black;
+}
+
+.header-box{
+    position: relative;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+  
+}
+.logo-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-box {
+    position: relative;
+    background-color: #71797E;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    max-width: 1000px;
+}
+
+.inner-box {
+    display: flex;
+    position: relative;
+    background-color: #C0C0C0;
+    width: 750px;
+    height: 350px;
+    max-width: 1000px;
+    flex-direction: column;
+}
+
+.text:not(#quote){
+    position: sticky;
+    top: 100%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 18px;
+    width: 100px;
+    padding-bottom: 200px;
+}
+#quote{
+    display: flex;
+    justify-content: center;
+
+}
+
+#who-said-this{
+    text-align: center;
+}
+
+button{
+    font-size: 16px;
+}
